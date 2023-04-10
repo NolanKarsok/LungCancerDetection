@@ -9,7 +9,7 @@ The dataset used in this project is obtained from Kaggle and generated from the 
 Before training the machine learning model, the dataset is preprocessed using hot encoding, minority class resampling and feature selection.
 
 **<h3>Model Selection</h3>**
-Several machine learning algorithms are trained on the preprocessed dataset and evaluated using the accuracy, precision, recall, and F1-score metrics. The algorithms include Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine (SVM). The best-performing algorithm is chosen for the final model.
+Several machine learning algorithms are trained on the preprocessed dataset and evaluated using the accuracy, precision, recall, and F1-score metrics. The algorithms include Logistic Regression, K-Nearest Neighbor, Random Forest, Gradient Boosting, Support Vector Machine, Decision Tree. The best-performing algorithm is chosen for the final model.
 
 **<h3>Performance</h3>**
 The final model achieves an accuracy of 91%, precision of 91%, positive recall of 97%. The model is evaluated using k-fold cross-validation and the test set. The results suggest that the model is able to predict whether a patient is likely to have lung cancer or not with high accuracy and precision.
